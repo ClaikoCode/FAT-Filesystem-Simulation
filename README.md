@@ -1,4 +1,4 @@
-# Lab_3_FAT_File_System
+# FAT Filesystem simulation
 School assignment for a course in Operating Systems for creating a full simulation of a FAT file system, including formating and handling of memory on a simulated disk defined by FAT16 documentation.
 
 The assignment started off by telling what the expected general functionality of the filesystem should be and included the "disk" and "shell" files as well as an entry point to properly create a simulated environment to interact with.
