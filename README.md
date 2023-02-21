@@ -8,6 +8,6 @@ All self-made code is in the "fs" files and contains all the expected functional
 This repo also includes the report that was neccassary for the assignment and goes through the most essential parts of the project as well as the thought process behind its implementation.
 
 ## Running the Code
-The code builds using a Make. To run the program, open the folder in the terminal and type "make". If you want to change the compiler, change the "CC" variable to any other C++ compiler. Make sure to run "make all" after any changes to fully clean and recompile the program.
+The code builds using a Make. To run the program, open the folder in the terminal and type "make". If you want to change the compiler, change the "CC" variable in the makefile to any other C++ compiler. Make sure to run "make all" after any changes to fully clean and recompile the program.
 
 Make sure to run the "format" command if it is the first time running the program as this will properly initialize a file on the system that simulates the memory disk. 
