@@ -1,13 +1,11 @@
 # FAT Filesystem simulation
-School assignment for a course in Operating Systems for creating a full simulation of a FAT file system, including formating and handling of memory on a simulated disk defined by FAT16 documentation.
+This project was a larger school assignment for a course in Operating Systems for creating an extensive but still basic simulation of a Unix-based FAT filesystem, including formating and handling of memory on a simulated hard drive, defined by FAT16 documentation. 
 
-The assignment started off by telling what the expected general functionality of the filesystem should be and included the "disk" and "shell" files as well as an entry point to properly create a simulated environment to interact with.
+All self-made code are in the "fs" files and contains all the expected functionality of the filesystem. The program has extensive error checking for bad writes, illegal operations/file namings, attempts to access un-initialized memory blocks on the disk, and more. The filesystem is navigated through a simulated terminal and uses common filesystem commands and syntax for all of its functionality ('cd', 'mkdir', 'rm', etc).
 
-All self-made code is in the "fs" files and contains all the expected functionality of the filesystem. The program is fully error checked for bad writes, illegal operations/file namings, tries to access un-initialized memory blocks on the disk, and more.
-
-This repo also includes the report that was neccassary for the assignment and goes through the most essential parts of the project as well as the thought process behind its implementation.
+This repo also includes a written report that was neccassary for the assignment and goes through the most essential parts of the project as well as the thought process behind the implementation.
 
 ## Running the Code
-The code builds using a Make. To run the program, open the folder in the terminal and type "make". If you want to change the compiler, change the "CC" variable in the makefile to any other C++ compiler. Make sure to run "make all" after any changes to fully clean and recompile the program.
+The code builds using a Make. To run the program, open the folder as your working directory in your terminal and type "make". If you want to change the compiler, change the "CC" variable in the makefile to any other C++ compiler. Make sure to run "make all" after any changes to fully clean and recompile the program.
 
-Make sure to run the "format" command if it is the first time running the program as this will properly initialize a file on the system that simulates the memory disk. 
+Make sure to run the "format" command if it is the first time running the program as this will properly initialize a file on the system that simulates the hard drive. 
